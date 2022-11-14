@@ -4,6 +4,11 @@ from django.db import models
 
 class State(models.Model):
     name = models.CharField(max_length=100, unique=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name    
 
 class City(models.Model):
     name = models.CharField(max_length=100, unique=True)
@@ -13,16 +18,25 @@ class City(models.Model):
     email = models.CharField(max_length=100)
     notes = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    modified_at = models.DateTimeField(auto_now=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name
+
+    class  Meta:
+        verbose_name_plural  =  "Cities"
 
 class Permission(models.Model):
     permission_number = models.CharField(max_length=100)
     city = models.ForeignKey(City, on_delete=models.CASCADE)
-    issued_date = models.DateTimeField()
+    issued_date = models.DateField()
     issued_by = models.CharField(max_length=100)
-    expiration_date = models.DateTimeField()
+    expiration_date = models.DateField()
     notes = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    modified_at = models.DateTimeField(auto_now=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.permission_number
 
     
