@@ -1,7 +1,7 @@
 databases:
   - name: mysite
-    databaseName: permissions_melectric2_dev
-    user: postgres
+    databaseName: mysite
+    user: mysite
 
 services:
   - type: web
