@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-admin.site.site_header = "Permissions M-Electric Web App"
+admin.site.site_header = "Operaciones M-electric"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
