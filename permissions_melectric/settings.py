@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'permissions_melectric.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # DATABASES = {     
 # 'default': {
@@ -101,12 +101,12 @@ WSGI_APPLICATION = 'permissions_melectric.wsgi.application'
 # } 
 # } 
 
-DATABASES = { 
-    'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/permissions_melectric2_dev',
-        conn_max_age=600
-        )
-        }
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default='postgresql://postgres:postgres@localhost:5432/permissions_melectric2_dev',
+#         conn_max_age=600
+#         )
+#         }
 
 
 # Password validation
