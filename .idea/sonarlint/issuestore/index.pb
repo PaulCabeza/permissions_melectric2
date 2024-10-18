@@ -16,8 +16,6 @@ D
 permissions/tests.py,4/6/46aa1e93bd582f9e822761ed155b1ea25b971590
 M
 permissions_melectric/urls.py,9/f/9f0e2faa2d56b11dd7173e0e25488d0306f7e73d
-8
-fly.toml,8/a/8a73c8c04212483bc30fdb99dd737a1570e65af6
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
