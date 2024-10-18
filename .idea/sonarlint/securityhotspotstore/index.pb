@@ -18,3 +18,8 @@ M
 permissions_melectric/urls.py,9/f/9f0e2faa2d56b11dd7173e0e25488d0306f7e73d
 8
 fly.toml,8/a/8a73c8c04212483bc30fdb99dd737a1570e65af6
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+M
+permissions_melectric/wsgi.py,1/1/11a66492f720f9215001b7fa41104a0454d24b87
