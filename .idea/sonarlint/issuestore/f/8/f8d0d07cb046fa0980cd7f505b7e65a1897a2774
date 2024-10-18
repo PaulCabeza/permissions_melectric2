@@ -1,6 +1,6 @@
 
-apython:S125]"Remove this commented out code.(²ÌŠ‘üÿÿÿÿJ$ac20cac7-239f-499e-9cab-78a50f149c03
-hpython:S125h"Remove this commented out code.(²ÌŠ‘üÿÿÿÿ8İ·ã©2J$d3f46ff5-7a63-4f46-825a-d7fe3418b7a6
-dpython:S125•"Remove this commented out code.(Òí˜8¨Š•í©2J$412b8f7c-bfdf-40bc-a864-dc5376ca3556
-secrets:S6687"KMake sure this Django key gets revoked, changed, and removed from the code.(‡°‡ºúÿÿÿÿJ$c0df4edd-749e-4f09-85a0-c8c10c4a8570
-—secrets:S6698j"SMake sure this PostgreSQL database password gets changed and removed from the code.(±ó¢ şÿÿÿÿJ$fb7c232f-3766-4b2e-8c14-c0dc459cd425
+Bpython:S125]"Remove this commented out code.(²ÌŠ‘üÿÿÿÿ8…ÜÊí©2
+Bpython:S125h"Remove this commented out code.(²ÌŠ‘üÿÿÿÿ8…ÜÊí©2
+>python:S125•"Remove this commented out code.(Òí˜8†ÜÊí©2
+secrets:S6687"KMake sure this Django key gets revoked, changed, and removed from the code.(‡°‡ºúÿÿÿÿJ$a441d7ed-02d4-4651-a068-d944816b81ea
+—secrets:S6698j"SMake sure this PostgreSQL database password gets changed and removed from the code.(±ó¢ şÿÿÿÿJ$8fd542fe-2993-4b25-8885-8ee4d1014168
